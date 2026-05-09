@@ -94,7 +94,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "03dfb6b9-ce12-42b7-8074-3b18473b295b")
-		(at 3.5 3.5)
+		(at 119.5 80.5)
 		(property "Reference" "MH1"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -150,7 +150,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "a2903575-f675-4c8a-96d8-d2216c9bc489")
-		(at 61.5 3.5)
+		(at 177.5 80.5)
 		(property "Reference" "MH3"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -206,7 +206,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "c26c9946-41bc-4b16-96ce-1c33687d58ca")
-		(at 3.5 52.5)
+		(at 119.5 129.5)
 		(property "Reference" "MH2"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -262,7 +262,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "e3acd00a-7b1c-44f9-b0ba-bca4c1134fd2")
-		(at 61.5 52.5)
+		(at 177.5 129.5)
 		(property "Reference" "MH4"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -316,8 +316,8 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 0 0)
-		(end 65 0)
+		(start 116 77)
+		(end 181 77)
 		(stroke
 			(width 0)
 			(type default)
@@ -326,8 +326,8 @@
 		(uuid "055e9de5-f121-4390-b03f-ddc9e994de3a")
 	)
 	(gr_line
-		(start 0 56)
-		(end 0 0)
+		(start 116 133)
+		(end 116 77)
 		(stroke
 			(width 0)
 			(type default)
@@ -336,8 +336,8 @@
 		(uuid "b0c8a2b0-2c16-40ca-b56c-ac55c0b7704a")
 	)
 	(gr_line
-		(start 65 0)
-		(end 65 56)
+		(start 181 77)
+		(end 181 133)
 		(stroke
 			(width 0)
 			(type default)
@@ -346,8 +346,8 @@
 		(uuid "9d729069-16e0-4b3f-9799-b7691678a8c4")
 	)
 	(gr_line
-		(start 65 56)
-		(end 0 56)
+		(start 181 133)
+		(end 116 133)
 		(stroke
 			(width 0)
 			(type default)
