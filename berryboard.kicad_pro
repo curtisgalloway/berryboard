@@ -1,0 +1,8 @@
+{
+  "board": {
+    "filename": "berryboard.kicad_pcb"
+  },
+  "sheets": [
+    ["root", "berryboard.kicad_sch"]
+  ]
+}
