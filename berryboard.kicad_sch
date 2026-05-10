@@ -8373,16 +8373,6 @@
 		)
 		(uuid "036298ff-8892-4118-a9af-08c6c6bbca02")
 	)
-	(label "SERVO_PWR"
-		(at 271.78 22.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "03bc7ae3-582e-419b-bd4f-930a40dd05b1")
-	)
 	(label "+3V3"
 		(at 207 38.19 0)
 		(effects
@@ -8392,16 +8382,6 @@
 			(justify left bottom)
 		)
 		(uuid "03cb9e93-c3ff-47cc-bbc5-ea1089933dcd")
-	)
-	(label "SERVO_1"
-		(at 271.78 34.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "040af86e-92fa-4ed0-b558-5c195d8a36ff")
 	)
 	(label "+5V"
 		(at 117.38 25.46 0)
@@ -8422,16 +8402,6 @@
 			(justify left bottom)
 		)
 		(uuid "04ec0c92-7e1f-4f5a-a191-06e7b6e841d0")
-	)
-	(label "GND"
-		(at 271.78 82.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06db02b5-b8bb-4d38-ad26-8763eaa65ad2")
 	)
 	(label "+5V"
 		(at 117.38 28 0)
@@ -8623,16 +8593,6 @@
 		)
 		(uuid "21a1add6-ae3a-4b14-aa0c-92e875e67419")
 	)
-	(label "GND"
-		(at 271.78 39.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22521902-33aa-46a7-828c-89677b780932")
-	)
 	(label "SERVO_2"
 		(at 240.4 66.82 0)
 		(effects
@@ -8703,16 +8663,6 @@
 		)
 		(uuid "24ab4779-6acc-49cd-8edd-bdc464da0272")
 	)
-	(label "SERVO_7"
-		(at 271.78 122.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25db37e9-75d0-4dee-920b-a9a3589b539a")
-	)
 	(label "GND"
 		(at 212.46 168.42 0)
 		(effects
@@ -8762,16 +8712,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b322e55-8ad8-48a9-a5da-71dbb29bc708")
-	)
-	(label "GND"
-		(at 271.78 24.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b950783-312c-4c17-a60b-e1415f37faed")
 	)
 	(label "GND"
 		(at 126.27 82.7 0)
@@ -8993,26 +8933,6 @@
 		)
 		(uuid "48e5f3a6-83f1-4a27-9ec4-35bf3da1fc8d")
 	)
-	(label "GND"
-		(at 271.78 127.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4954eca2-ba00-41d3-b62f-39d0becbe6f4")
-	)
-	(label "GND"
-		(at 271.78 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4987e456-ec39-4915-b347-9d0ecfb5a826")
-	)
 	(label "I2C1_SCL"
 		(at 59.69 107.95 0)
 		(effects
@@ -9032,16 +8952,6 @@
 			(justify left bottom)
 		)
 		(uuid "4ff55ce4-7f30-4cfd-94a1-ac183f641a5f")
-	)
-	(label "SERVO_4"
-		(at 271.78 77.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5351a5bc-1faa-4dc5-9dcb-39bcc97a936b")
 	)
 	(label "I2C0_SCL"
 		(at 134.62 132.08 0)
@@ -9072,16 +8982,6 @@
 			(justify left bottom)
 		)
 		(uuid "56ec2eb2-aafe-4ff2-9e2c-342fd8a1dcab")
-	)
-	(label "SERVO_6"
-		(at 271.78 107.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "574ccbeb-1b68-4c03-ad15-2654ff680ea7")
 	)
 	(label "LEAK_ADC1"
 		(at 271.78 156.51 0)
@@ -9273,16 +9173,6 @@
 		)
 		(uuid "719d45ad-66cd-4a5c-957f-88e6129be403")
 	)
-	(label "SERVO_PWR"
-		(at 271.78 37.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7277033c-ba86-448f-8739-037ed9432b73")
-	)
 	(label "GND"
 		(at 189.6 115.08 0)
 		(effects
@@ -9302,16 +9192,6 @@
 			(justify left bottom)
 		)
 		(uuid "75b85db4-f065-4b1f-b646-fc0311cc1316")
-	)
-	(label "SERVO_PWR"
-		(at 271.78 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76618b4c-47ef-48ba-9c98-7e89d31fdeea")
 	)
 	(label "+5V_EXT"
 		(at 34.92 28 0)
@@ -9453,16 +9333,6 @@
 		)
 		(uuid "82da23ab-20ad-4d0e-9c47-5abe5da761df")
 	)
-	(label "SERVO_3"
-		(at 271.78 64.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "85072379-cba0-433f-8d07-5dfae922268e")
-	)
 	(label "+3V3"
 		(at 319.92 200 0)
 		(effects
@@ -9502,16 +9372,6 @@
 			(justify left bottom)
 		)
 		(uuid "88bf5a95-31a9-4bbb-8228-665751f7ea53")
-	)
-	(label "SERVO_5"
-		(at 271.78 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88e84f4c-c944-46aa-8ed2-09dd5e64d42f")
 	)
 	(label "+3.3V_RPI"
 		(at 16.92 87.14 0)
@@ -9632,16 +9492,6 @@
 			(justify left bottom)
 		)
 		(uuid "9bf56287-9d29-4701-b6c9-c65805316801")
-	)
-	(label "GND"
-		(at 271.78 69.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9de52f88-1023-4b6d-9f37-944fac45aa93")
 	)
 	(label "SERVO_7"
 		(at 240.4 79.52 0)
@@ -9773,16 +9623,6 @@
 		)
 		(uuid "a7d75c42-6063-40ba-8611-e19754c387bf")
 	)
-	(label "SERVO_PWR"
-		(at 271.78 80.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8a8591e-b7b2-40ac-bf27-91376d31e89f")
-	)
 	(label "+3V3"
 		(at 140 58.19 0)
 		(effects
@@ -9792,16 +9632,6 @@
 			(justify left bottom)
 		)
 		(uuid "aab22fbb-e028-428d-96f9-5e1d62aa71f1")
-	)
-	(label "SERVO_PWR"
-		(at 271.78 125.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acb48903-7e9e-4c6a-9816-0cd013d3705f")
 	)
 	(label "GND"
 		(at 16.92 117.62 0)
@@ -9822,26 +9652,6 @@
 			(justify left bottom)
 		)
 		(uuid "ae38d28e-87e4-4e2c-b1ce-dfa26ba6a47d")
-	)
-	(label "SERVO_PWR"
-		(at 271.78 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae5c55e5-dd2d-4316-8096-95362f3b9cc3")
-	)
-	(label "GND"
-		(at 271.78 112.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aeb348fa-c6e5-4dbb-a81f-a3e806890a8c")
 	)
 	(label "+3V3"
 		(at 60 86.19 0)
@@ -10053,16 +9863,6 @@
 		)
 		(uuid "cc607422-35a3-4b2a-a49b-4b6d63c9294d")
 	)
-	(label "SERVO_0"
-		(at 271.78 19.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc719fc7-c445-4ea1-a0f2-802d04b4c2b9")
-	)
 	(label "+5V_RPI"
 		(at 29.62 89.68 0)
 		(effects
@@ -10132,16 +9932,6 @@
 			(justify left bottom)
 		)
 		(uuid "d140cd78-bd7f-4314-99e0-054bb8e98cc0")
-	)
-	(label "GND"
-		(at 271.78 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d2036e36-5d4d-421e-9890-ce1fc0866510")
 	)
 	(label "FLASH_IO3"
 		(at 189.6 107.46 0)
@@ -10232,16 +10022,6 @@
 			(justify left bottom)
 		)
 		(uuid "e1bbf8ba-44a9-438c-a2c4-d6e27072a920")
-	)
-	(label "SERVO_2"
-		(at 271.78 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e464b339-b5d4-4703-8843-f7f01b36614b")
 	)
 	(label "GND"
 		(at 161.29 35.56 0)
@@ -10562,26 +10342,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc58842d-ed72-4cd8-a653-381767389998")
-	)
-	(label "SERVO_PWR"
-		(at 271.78 67.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fceab0d9-287f-46ca-9305-7bde245872e8")
-	)
-	(label "SERVO_PWR"
-		(at 271.78 110.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd2860f2-a1d7-4e5f-937d-55ceb850f0a9")
 	)
 	(label "GND"
 		(at 87.63 181.61 0)
