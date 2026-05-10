@@ -646,7 +646,7 @@
       {
         "filename": "berryboard.kicad_sch",
         "name": "berryboard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "f2de4644-2f86-42ce-9918-685d2898a7a7"
       }
     ],
     "used_designators": "",
@@ -654,8 +654,8 @@
   },
   "sheets": [
     [
-      "13db2af6-3c28-4e63-b7fc-b2b10d76358b",
-      "berryboard.kicad_sch"
+      "f2de4644-2f86-42ce-9918-685d2898a7a7",
+      "berryboard"
     ]
   ],
   "text_variables": {},
