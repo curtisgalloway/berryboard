@@ -2800,7 +2800,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "225c556f-905c-43d3-a6a4-fdfaea1b9743")
-		(at 143.22 84.5 90)
+		(at 143.22 77.5 90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J4"
@@ -5262,7 +5262,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4dacc01c-a028-4509-9611-da81948bd39a")
-		(at 143.26 77.5 90)
+		(at 143.22 82.58 90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J6"
@@ -12616,7 +12616,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f7d9b76c-7365-40fa-bd35-f5a997d81d84")
-		(at 143.26 81 90)
+		(at 143.22 80.04 90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "J5"
@@ -12959,6 +12959,102 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "57b76e30-c9ad-4097-ad25-8fc186b7305e")
+	)
+	(gr_text "1"
+		(at 143.22 76)
+		(layer "F.SilkS")
+		(uuid "bf04e27f-3e2c-4df1-8641-7c607e675afb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "2"
+		(at 140.68 76)
+		(layer "F.SilkS")
+		(uuid "6688203f-7d44-4539-9e17-ed09f4c165cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "3"
+		(at 138.14 76)
+		(layer "F.SilkS")
+		(uuid "163354ff-6fe1-4b7c-9293-5f4022471b59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "4"
+		(at 135.6 76)
+		(layer "F.SilkS")
+		(uuid "a08eec06-4785-4804-8c6b-15293cc5f982")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "5"
+		(at 133.06 76)
+		(layer "F.SilkS")
+		(uuid "d8ece6fd-88a9-49d9-b8fd-8b6d00799730")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "6"
+		(at 130.52 76)
+		(layer "F.SilkS")
+		(uuid "e8939a43-cff0-4d2c-8dc2-4ebbc415f052")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "7"
+		(at 127.98 76)
+		(layer "F.SilkS")
+		(uuid "790570fd-d52e-4a31-9897-5bf1f5f8e11a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
+	)
+	(gr_text "8"
+		(at 125.44 76)
+		(layer "F.SilkS")
+		(uuid "e4be4f20-f1f5-4859-a92a-28ddc4c44182")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify center)
+		)
 	)
 	(embedded_fonts no)
 )
