@@ -8603,16 +8603,7 @@
 		(at 29.62 104.92)
 		(uuid "fa924b2c-cebf-4124-b76d-88ea08ec73d2")
 	)
-	(wire
-		(pts
-			(xy 59.69 100.33) (xy 60 93.19)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "cf2d27c1-694a-4795-85e9-10604eda45d1")
-	)
+	
 	(label "+3V3"
 		(at 209.92 54.12 0)
 		(effects
@@ -9531,7 +9522,7 @@
 		)
 		(uuid "6b72673e-175d-4631-ad97-468835ff1ec8")
 	)
-	(label "USB_DP"
+	(label "USB_DP_MCU"
 		(at 189.6 87.14 0)
 		(effects
 			(font
@@ -10081,7 +10072,7 @@
 		)
 		(uuid "a7308737-fbd8-4b0c-bdc0-4cdbaa9a2bce")
 	)
-	(label "+3V3"
+	(label "MCU_AVDD"
 		(at 197.22 54.12 0)
 		(effects
 			(font
@@ -10646,7 +10637,7 @@
 		)
 		(uuid "e81374d0-df48-422e-9cc2-e09f0866feaa")
 	)
-	(label "USB_DM"
+	(label "USB_DM_MCU"
 		(at 189.6 84.6 0)
 		(effects
 			(font
@@ -12108,7 +12099,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7uF"
 			(at 207 44.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12264,7 +12255,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7uF"
 			(at 232 57.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13277,7 +13268,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH"
+		(property "Value" "AOTA-B201610S3R3-101-T"
 			(at 220 44.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13287,7 +13278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0806_2016Metric"
 			(at 220 42 0)
 			(hide yes)
 			(show_name no)
@@ -15566,6 +15557,480 @@
 				)
 			)
 		)
+	)
+	
+	
+	
+	
+	
+	(symbol
+		(lib_id "Device:R")
+		(at 169 87.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde38cc5-d2df-433a-8ef3-c847398ac007")
+		(property "Reference" "R9"
+			(at 169 83.33 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "27"
+			(at 169 90.95 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169 87.14 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 169 87.14 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/b118f3d8-2195-4359-91ad-12f03f5cd923"
+					(reference "R9") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:R")
+		(at 169 84.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb5d2c4-1cbf-4374-9e9a-0b5d369eec05")
+		(property "Reference" "R10"
+			(at 169 80.79 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "27"
+			(at 169 88.41 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 169 84.6 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 169 84.6 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/24ee2977-1935-4d4e-9f85-27e8cb7d4b38"
+					(reference "R10") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 160.02 99.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c503bdf6-4fc7-468e-8876-d8bc1c7a90ef")
+		(property "Reference" "Y1"
+			(at 160.02 96.03 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "ABM8-272-T3"
+			(at 160.02 103.65 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 160.02 99.84 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 160.02 99.84 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/fbfb2550-5a25-48a3-a8f1-8d0116fc5cea"
+					(reference "Y1") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:R")
+		(at 172.72 94.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "147111a7-8566-4a22-bfc8-98454141d58e")
+		(property "Reference" "R11"
+			(at 172.72 90.95 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "1k"
+			(at 172.72 98.57 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 172.72 94.76 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 172.72 94.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/5abb4d9f-eca6-4398-a880-e7ab59271a01"
+					(reference "R11") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 104.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13796b16-adde-4621-8d4c-f993d14e6da1")
+		(property "Reference" "C13"
+			(at 152.4 101.11 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "15pF"
+			(at 152.4 108.73 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.4 104.92 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 152.4 104.92 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/168412d0-5aab-4e1a-9a1a-899ca9644fba"
+					(reference "C13") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 152.4 94.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38699aef-af39-4c79-ba26-2c251e80f19e")
+		(property "Reference" "C14"
+			(at 152.4 90.95 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "15pF"
+			(at 152.4 98.57 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 152.4 94.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 152.4 94.76 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/84caefd7-db33-4e16-bde2-a52d6e9399b6"
+					(reference "C14") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 54.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf455ef9-1abf-444e-bda4-7011f2a7fae9")
+		(property "Reference" "R12"
+			(at 177.8 50.31 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "33"
+			(at 177.8 57.93 90)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 177.8 54.12 90)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 177.8 54.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/62813ea0-4305-410a-b817-b54e116c3571"
+					(reference "R12") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4727e36-6572-47ae-9208-7dee9a85cd63")
+		(property "Reference" "C15"
+			(at 177.8 58.42 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Value" "4.7uF"
+			(at 177.8 66.04 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.8 62.23 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 177.8 62.23 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/14d13bc6-0ee1-4089-b71a-1deaca4fa8e3"
+					(reference "C15") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(label "USB_DP_MCU"
+		(at 172.81 87.14 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a6d4e335-601c-480d-a1da-4a3c12afe55c")
+	)
+	
+	(label "USB_DP"
+		(at 165.19 87.14 180)
+		(effects (font (size 1.524 1.524)))
+		(uuid "35a95e9c-c924-475d-a87e-f6149ea8ed0c")
+	)
+	
+	(label "USB_DM_MCU"
+		(at 172.81 84.6 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "967470fc-5548-441a-8779-caa4bbac8571")
+	)
+	
+	(label "USB_DM"
+		(at 165.19 84.6 180)
+		(effects (font (size 1.524 1.524)))
+		(uuid "5a5e1b0f-6d10-4b1a-b98b-fa021038f7ba")
+	)
+	
+	(label "XIN"
+		(at 189.6 104.92 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "996e8845-4314-4d70-afc6-b3d15ad249ab")
+	)
+	
+	(label "XOUT_MCU"
+		(at 189.6 94.76 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "cd92df88-48e6-44be-8f20-d14258f2e629")
+	)
+	
+	(label "XOUT_MCU"
+		(at 176.53 94.76 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "4cfeba54-5724-4dc0-b6d5-14df1b40da78")
+	)
+	
+	(label "XOUT"
+		(at 168.91 94.76 180)
+		(effects (font (size 1.524 1.524)))
+		(uuid "0e186a66-ca7b-42c4-9f60-4d2d82b52b57")
+	)
+	
+	(label "XIN"
+		(at 156.21 99.84 180)
+		(effects (font (size 1.524 1.524)))
+		(uuid "79b2c902-cd05-4b88-8a9f-55f10789ab1d")
+	)
+	
+	(label "XOUT"
+		(at 163.83 99.84 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "d1797a0c-262c-4204-8907-99df14da07cc")
+	)
+	
+	(label "XIN"
+		(at 152.4 101.11 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "510c91fe-b4f6-4a8a-956a-6a3c243f18ef")
+	)
+	
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 108.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f1ddef4-0cce-4fda-91c1-48c16e4bfca4")
+		(property "Reference" "#PWRaeff"
+			(at 152.4 115.08 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 152.4 113.81 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 152.4 108.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 152.4 108.73 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/fa99803c-b6de-4cde-8554-a05b62aeba2d"
+					(reference "#PWRaeff") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(label "XOUT"
+		(at 152.4 90.95 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "044dece2-f333-4070-8aae-940ca641562d")
+	)
+	
+	(symbol
+		(lib_id "power:GND")
+		(at 152.4 98.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfdac9ed-dcbc-4500-ab58-9499d05683f2")
+		(property "Reference" "#PWRe43c"
+			(at 152.4 104.92 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 152.4 103.65 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 152.4 98.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 152.4 98.57 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/c681c899-2ead-4108-a978-e30e99317080"
+					(reference "#PWRe43c") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(label "MCU_AVDD"
+		(at 181.61 54.12 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "a1a88a30-4934-40b0-853a-8992aa243942")
+	)
+	
+	(label "+3V3"
+		(at 173.99 54.12 180)
+		(effects (font (size 1.524 1.524)))
+		(uuid "b7f26c88-103c-4b9d-9b6b-6afebf1eee1b")
+	)
+	
+	(label "MCU_AVDD"
+		(at 177.8 58.42 0)
+		(effects (font (size 1.524 1.524)))
+		(uuid "566bcb60-ca77-42c9-96c1-c50553fa2a74")
+	)
+	
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3cdb157-1327-44c7-974e-466f93c0e4ea")
+		(property "Reference" "#PWRc4c3"
+			(at 177.8 72.39 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "GND"
+			(at 177.8 71.12 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 177.8 66.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 177.8 66.04 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/81a6ec81-bd48-45f0-8573-f969bd3f1c32"
+					(reference "#PWRc4c3") (unit 1)
+				)
+			)
+		)
+	)
+	
+	(wire
+		(pts (xy 59.69 100.33) (xy 60 93.19))
+		(stroke (width 0) (type solid))
+		(uuid "e8b66a6b-0b18-4e7d-b4fa-1a7d440cf9b3")
 	)
 	(sheet_instances
 		(path "/"
