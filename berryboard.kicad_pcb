@@ -12969,7 +12969,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "2"
@@ -12981,7 +12980,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "3"
@@ -12993,7 +12991,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "4"
@@ -13005,7 +13002,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "5"
@@ -13017,7 +13013,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "6"
@@ -13029,7 +13024,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "7"
@@ -13041,7 +13035,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(gr_text "8"
@@ -13053,7 +13046,6 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify center)
 		)
 	)
 	(embedded_fonts no)
