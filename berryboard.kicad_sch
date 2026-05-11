@@ -8596,10 +8596,6 @@
 		(uuid "ed01e102-0639-4d63-ae7e-8b9042bc14b8")
 	)
 	(no_connect
-		(at 189.6 125.24)
-		(uuid "fa1a4e51-fd89-4c4e-942c-1a22541b5099")
-	)
-	(no_connect
 		(at 29.62 104.92)
 		(uuid "fa924b2c-cebf-4124-b76d-88ea08ec73d2")
 	)
@@ -8673,16 +8669,6 @@
 			(justify left bottom)
 		)
 		(uuid "045cf3cc-2363-4a22-9a90-958764979f53")
-	)
-	(label "FLASH_IO1"
-		(at 189.6 102.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04ec0c92-7e1f-4f5a-a191-06e7b6e841d0")
 	)
 	(label "SERVO_PWR"
 		(at 269.24 49.53 0)
@@ -8968,16 +8954,6 @@
 		)
 		(uuid "230137f9-34e4-4c9b-9068-a5fb2b473402")
 	)
-	(label "FLASH_CLK"
-		(at 189.6 97.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23bd28a1-b900-491a-b1a7-946190c3773b")
-	)
 	(label "+5V"
 		(at 87.63 166.37 0)
 		(effects
@@ -9077,16 +9053,6 @@
 			(justify left bottom)
 		)
 		(uuid "2e2528fd-d10b-450c-9c72-6769260b0ef1")
-	)
-	(label "FLASH_IO2"
-		(at 189.6 104.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e39a608-3adb-4704-9b89-9f5c108e28e6")
 	)
 	(label "I2C0_SDA"
 		(at 134.62 129.54 0)
@@ -9561,16 +9527,6 @@
 			(justify left bottom)
 		)
 		(uuid "719d45ad-66cd-4a5c-957f-88e6129be403")
-	)
-	(label "GND"
-		(at 189.6 115.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7387a279-3cc0-4399-a8d7-21d0a27219f0")
 	)
 	(label "GND"
 		(at 118.11 191.77 0)
@@ -10448,16 +10404,6 @@
 		)
 		(uuid "d23461ca-1725-4600-a09a-3f439150c47e")
 	)
-	(label "FLASH_IO3"
-		(at 189.6 107.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d29572cb-03b0-4388-b37b-eba5c855c3d5")
-	)
 	(label "UART_RX"
 		(at 29.62 97.3 0)
 		(effects
@@ -10486,16 +10432,6 @@
 			(justify left bottom)
 		)
 		(uuid "dccd8efd-5cb7-4e87-be2b-e19993112a7a")
-	)
-	(label "FLASH_CS"
-		(at 189.6 94.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df0e9878-04a1-4f99-b305-2b63c8a97f59")
 	)
 	(label "I2C0_SCL"
 		(at 29.62 120.16 0)
@@ -10856,16 +10792,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc26070f-0c0c-41b2-8fa3-ab5bf58c15ad")
-	)
-	(label "FLASH_IO0"
-		(at 189.6 99.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc58842d-ed72-4cd8-a653-381767389998")
 	)
 	(label "GND"
 		(at 87.63 181.61 0)
@@ -13278,7 +13204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0806_2016Metric"
+		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-201610"
 			(at 220 42 0)
 			(hide yes)
 			(show_name no)
@@ -15859,17 +15785,6 @@
 		(uuid "5a5e1b0f-6d10-4b1a-b98b-fa021038f7ba")
 	)
 	
-	(label "XIN"
-		(at 189.6 104.92 0)
-		(effects (font (size 1.524 1.524)))
-		(uuid "996e8845-4314-4d70-afc6-b3d15ad249ab")
-	)
-	
-	(label "XOUT_MCU"
-		(at 189.6 94.76 0)
-		(effects (font (size 1.524 1.524)))
-		(uuid "cd92df88-48e6-44be-8f20-d14258f2e629")
-	)
 	
 	(label "XOUT_MCU"
 		(at 176.53 94.76 0)
@@ -16027,10 +15942,125 @@
 		)
 	)
 	
+	(label "FLASH_IO3"
+		(at 189.6 107.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567803")
+	)
+	(label "FLASH_IO2"
+		(at 189.6 104.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567804")
+	)
+	(label "FLASH_IO1"
+		(at 189.6 102.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567805")
+	)
+	(label "FLASH_IO0"
+		(at 189.6 99.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567806")
+	)
+	(label "FLASH_CLK"
+		(at 189.6 97.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567807")
+	)
+	(label "FLASH_CS"
+		(at 189.6 94.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567808")
+	)
+	(label "XIN"
+		(at 189.6 115.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567809")
+	)
+	(label "XOUT_MCU"
+		(at 189.6 125.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef123456780a")
+	)
+	
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 181.61 54.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1463844-f03d-4b75-a7b2-b62a9956213a")
+		(property "Reference" "#PWR7b84"
+			(at 181.61 47.77 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Value" "PWR_FLAG"
+			(at 181.61 49.04 0)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Footprint" ""
+			(at 181.61 54.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "Datasheet" "~"
+			(at 181.61 54.12 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(instances
+			(project "berryboard"
+				(path "/ff3b3dad-4bf5-4947-8010-24cd58ee7f98"
+					(reference "#PWR7b84") (unit 1)
+				)
+			)
+		)
+	)
+	
 	(wire
 		(pts (xy 59.69 100.33) (xy 60 93.19))
 		(stroke (width 0) (type solid))
-		(uuid "e8b66a6b-0b18-4e7d-b4fa-1a7d440cf9b3")
+		(uuid "32703126-a83e-4ef0-a513-b39a9ecb73f3")
 	)
 	(sheet_instances
 		(path "/"
